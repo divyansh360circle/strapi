@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "firstname": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "age2": {
+      "type": "number",
+      "required": true,
+      "unique": true
+    },
+    "age3": {
+      "type": "number",
+      "required": true,
+      "unique": true
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categogys",
+  "info": {
+    "singularName": "categogy",
+    "pluralName": "categogys",
+    "displayName": "categogy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "next": {
+      "type": "string"
+    }
+  }
+}
